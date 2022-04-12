@@ -14,7 +14,21 @@
     box-sizing: border-box;
     outline: none;
     font-family:"Arial";
-    overflow: hidden;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+/*Player*/
+.player-container{
+    width: 100vw;
+    height: 90vh;
+    background: var(--gray);
+    color: var(--light);
+    overflow-y: scroll;
+    padding-bottom: 50px;
 }
 button{
     cursor: pointer;
@@ -22,7 +36,104 @@ button{
 a{
     text-decoration: none;
 }
+/*header*/
 
+.header-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-background{
+    background: var(--bg-base);
+    background: linear-gradient(302deg, var(--bg-gradient-a) 0%, var(--bg-gradient-b) 100%);
+    width: 100vw;
+    height: 250px;
+    z-index: 1;
+}
+
+.header-content{
+    width: 90%;
+    margin: 0 auto;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    z-index: 5;
+    margin-top: -120px;
+}
+.info{
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    color: var(--dark);
+    justify-content: center;
+}
+
+h3{
+    font-size: 2em;
+}
+h6{
+    font-size: 1em;
+}
+
+.header-cover{
+    width: 150px;
+    height: 150px;
+    background: var(--dark);
+}
+
+/*music*/
+
+.music-container{
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--dark-36);
+    margin: 10px 5vw;
+    cursor: pointer;
+}
+.music-content{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.music-name{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    margin:  0 10px;
+    color: #fff;
+}
+
+.music-name h6{
+    font-weight: 100;
+}
+
+.music-content:hover{
+    background: var(--dark);
+}
+
+.music-cover{
+    width: 64px;
+    height: 64px;
+}
+
+.button-like{
+    background: #fff;
+    border: none;
+    margin-right: 20px;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.like{
+    width: 24px;
+    height: 24px;
+}
 /*Controls*/
 .control-container{
     width: 100vw;

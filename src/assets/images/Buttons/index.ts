@@ -3,5 +3,5 @@ export {default as play} from './play.svg';
 export {default as next} from "./next.svg";
 export {default as prev} from "./pause.svg";
 export {default as pause} from "./pause.svg";
-/*export {default as noliked} from "./like.svg";
-export {default as liked} from "./liked.svg";*/
+export {default as noliked} from "./noliked.png";
+export {default as liked} from "./liked.png";
