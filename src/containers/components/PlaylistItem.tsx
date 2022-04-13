@@ -3,6 +3,7 @@ import liked from "../../assets/images/Buttons/liked.png";
 import noliked from "../../assets/images/Buttons/noliked.png";
 
 
+
 type TrackProps = {
   title: string;
   like: boolean;
@@ -22,7 +23,7 @@ const PlaylistItem = ({ title, like, cover, albumName }: TrackProps) => {
   return (
     <div className="music-container">
       <div className="music-content">
-        <img src={cover.default} alt={title} className="music-cover" />
+        <img src={cover} alt={title} className="music-cover" />
         <div className="music-name">
           <h4>{title}</h4>&nbsp;-&nbsp;<h6>{albumName}</h6>
         </div>

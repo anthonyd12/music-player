@@ -1,4 +1,4 @@
-import playlistCover from "../../assets/images/cover/playlist.png";
+import playlistCover from "../../assets/images/cover/whard.png";
 
 type HeaderProps = {
   title: string;

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import cover from "../assets/images/cover/cradles.jpg";
+import cover from "../assets/images/cover/thriler.jpg";
 
 import { stop, play, prev, next, pause } from "../assets/images/Buttons";
 

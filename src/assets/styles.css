@@ -46,9 +46,9 @@ a{
 
 .header-background{
     background: var(--bg-base);
-    background: linear-gradient(302deg, var(--bg-gradient-a) 0%, var(--bg-gradient-b) 100%);
+    background: linear-gradient(302deg, rgb(66, 66, 66) 0%, rgb(98, 0, 97) 100%);
     width: 100vw;
-    height: 250px;
+    height: 230px;
     z-index: 1;
 }
 
@@ -65,7 +65,7 @@ a{
     padding-left: 20px;
     display: flex;
     flex-direction: column;
-    color: var(--dark);
+    color: #fff;
     justify-content: center;
 }
 
